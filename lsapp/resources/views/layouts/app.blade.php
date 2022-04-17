@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>My Website</title>
+  <title>Lsapp</title>
   {{-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> --}}
   <link rel="stylesheet" type="text/css" href="{{ url('css/bootstrap.min.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}" />
