@@ -9,17 +9,17 @@ class PagesController extends Controller
     public function index(){
         $title = 'Home';
         // return view('index',compact('title'));
-        return view('index')->with('title',$title);
+        return view('pages.index')->with('title',$title);
     }
     public function about(){
         $title = 'About';
-        return view('about')->with('title',$title);
+        return view('pages.about')->with('title',$title);
     }
     public function services(){
         $data = array(
             'title' => 'Services',
             'services' => ['Web Design','Programming','SEO']
         );
-        return view('services')->with($data);
+        return view('pages.services')->with($data);
     }
 }
