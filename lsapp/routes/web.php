@@ -26,3 +26,10 @@ Route::resource('posts', App\Http\Controllers\PostsController::class);
 // Route::get('/user/{name}/{id}', function ($name,$id) {
 //     return 'this is user '.$name.' with an id of '.$id;
 // });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

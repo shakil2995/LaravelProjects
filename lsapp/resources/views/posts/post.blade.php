@@ -8,5 +8,8 @@
         </div>
         <small>Written on {{$post->created_at}}</small>
         <hr>
-        <a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>
+        <a href="/posts/{{$post->id}}/edit" class="btn btn-info">Edit</a>
+        {!! Form::open(['action' => ['App\Http\Controllers\PostsController@destroy', $post->id], 'method' => 'DELETE','class'=>'float-right']) !!}
+        {{Form::submit('Delete',['class'=>'btn btn-danger'])}}
+        {!!Form::close()!!}
 @endsection
