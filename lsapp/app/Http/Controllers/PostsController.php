@@ -87,7 +87,7 @@ class PostsController extends Controller
         
         $post= Post::find($id);
         if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error','Unauthorized page');
+            return redirect('/posts')->with('success','Unauthorised Access');
         }
         return view('posts.edit')->with('post',$post);
     }
@@ -125,7 +125,7 @@ class PostsController extends Controller
             // Delete
         $post= Post::find($id);
         if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error','Unauthorized page');
+            return redirect('/posts')->with('success','Unauthorised access');
         }
 
         $post->delete();
