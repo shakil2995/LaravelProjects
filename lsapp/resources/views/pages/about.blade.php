@@ -3,11 +3,10 @@
 
     <div class="animate__animated animate__bounceInRight">
       <h1>{{$title}} The Project</h1>
-      <p>
-        <h6>Hi, this is a group project for CSE309 Final.</h6>
-        <span style="color:rgb(44, 44, 44)">It is a fully functional blogging website with full user Authentication system , Crud Functionality and Access Control.
-         </span>
-    </p>
+     
+        {{-- <h6>Hi, this is a group project for CSE309 Final.</h6> --}}
+        <h6>It is a fully functional blogging website with full user Authentication system , Crud Functionality and Access Control.</h6>
+   
     <h4>About me</h4>
     </div>
 
