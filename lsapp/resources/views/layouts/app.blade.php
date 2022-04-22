@@ -20,7 +20,7 @@
     </div>
     <footer>
       
-    © Shayla and Shakil - 2022
+    ©Shakil Ahmed - 2022
 
     </footer> 
     <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
