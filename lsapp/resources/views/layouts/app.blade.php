@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Lsapp</title>
+  <title>SSblog</title>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="{{ url('css/bootstrap.min.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ url('css/minty.css') }}" />
   <link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}" />
 </head>
 <body>
@@ -18,6 +19,9 @@
             @yield('content')
     </div>
     <footer>
+      
+    © Shayla and Shakil - 2022
+
     </footer> 
     <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
       <script>

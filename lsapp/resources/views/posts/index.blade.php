@@ -3,8 +3,8 @@
 <h1> Posts </h1>
 @if(count($posts)>0)
     @foreach($posts as $post)
-        <div class="card text-dark bg-light mb-3">
-            <div class="card-body" >
+        <div class="card text-dark bg-light mb-3 animate__animated animate__bounceInUp">
+            <div class="card-body " >
                 <h3 class="card-title"><a class="" href="/posts/{{$post->id}}">{{$post -> title}}</a></h3>
                 {{-- <p class="card-text">{!!$post -> body!!}</p> --}}
                 <small>Written on {{$post->created_at}}  by <span class="text-info">{{$post->user->name}}</span></small>
