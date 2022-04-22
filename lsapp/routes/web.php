@@ -30,3 +30,4 @@ Route::resource('posts', App\Http\Controllers\PostsController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Auth::routes(); line-> Route::get('/home', [HomeController::class, 'index']);
